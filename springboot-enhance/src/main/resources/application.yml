@@ -1,0 +1,64 @@
+#app
+server:
+    port: 8070
+
+#spring
+spring:
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: true
+
+  # H2 DATABASE CONFIG
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+#    schema: classpath:/db/schema-h2.sql
+#    data: classpath:/db/data-h2.sql
+#    url: jdbc:h2:mem:testdb
+#    username: sa
+#    password: sa
+#    platform: h2
+#    initialize: true
+#    continue-on-error: true
+#  h2:
+#    console:
+#      enabled: true
+#      path: /console
+    url: jdbc:mysql://localhost:3306/koa_demo?characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    hikari:
+      maxLifetime: 1765000 #一个连接的生命时长（毫秒），超时而且没被使用则被释放（retired），缺省:30分钟，建议设置比数据库超时时长少30秒以上
+      maximumPoolSize: 15
+
+  kafka:
+    producer:
+      retries: 3
+      batch-size: 16384
+      buffer-memory: 33554432
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      bootstrap-servers: localhost:9092
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: foo
+      auto-offset-reset: earliest
+      enable-auto-commit: true
+      auto-commit-interval: 100
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+rmq:
+  namesrvAddr: localhost:9876
+  instanceName: reservation
+  defaultProducer: newGroup
+  transactionProducer: transactionProducer
+  defaultConsumer: defaultConsumer
+  orderConsumer: orderConsumer
+  defaultTopic: newTopic
+  orderTopic: order
+
+zk:
+  url: 127.0.0.1:2181

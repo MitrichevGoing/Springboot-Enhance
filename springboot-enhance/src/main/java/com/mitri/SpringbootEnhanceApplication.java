@@ -172,8 +172,7 @@ public class SpringbootEnhanceApplication implements CommandLineRunner{
 //					.setNettyThreads(2*4);
 //		String url = String.format("redis://%s:%d", redisConfigProperties.getHost(), redisConfigProperties.getPort());
 		config.useSingleServer()
-					.setAddress("redis://180.97.80.177:6379")
-					.setPassword("tE2-WJZ-u5F-6UJ")
+					.setAddress("redis://127.0.0.1:6379")
 					.setDatabase(0);
 		RedissonClient redissonClient = Redisson.create(config);
 

@@ -56,8 +56,8 @@ spring:
       force: true
   redis:
     database: 0
-    host: 180.97.80.177
-    password: tE2-WJZ-u5F-6UJ
+    host: localhost
+    password:
     port: 6379
     timeout: 10000
     pool:
@@ -68,8 +68,8 @@ spring:
     redis-second:
       enabled: true
       database: 0
-      host: 180.97.70.120
-      password: tE2-WJZ-u5F-6UJ
+      host: localhost
+      password:
       port: 6379
       timeout: 30000
 

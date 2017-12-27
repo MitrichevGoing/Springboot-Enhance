@@ -2,77 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="478d64c0-c537-4a63-8b3d-31bc04e0ad65" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_zxing_core_3_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/QRcodeUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/StockTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/excel/ExcelTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/proxy/Calculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/proxy/CglibProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/proxy/ICalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/proxy/MyInvocationHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/proxy/ProxyHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/proxy/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/proxy/StudentImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/proxy/StudentProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/proxy/TestProxy.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/redis/JedisClusterConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/redis/JedisPoolProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/redis/JedisSentinelPoolAutoConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/redis/RedisConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/redis/RedisProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/thread/SyncDeadLock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/thread/SyncTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/thread/ThreadInterrupt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/util/ImageCaptcha.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/zk/KafkaTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_core_1_4_20_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_servlet_1_4_20_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_undertow_undertow_websockets_jsr_1_4_20_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_5_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_undertow_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_1_5_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_2_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_8_8_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_12_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-enhance/.gitignore" afterPath="$PROJECT_DIR$/springboot-enhance/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-enhance/pom.xml" afterPath="$PROJECT_DIR$/springboot-enhance/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/SpringbootEnhanceApplication.java" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/SpringbootEnhanceApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/controller/TestDeployController.java" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/controller/TestDeployController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/po/PersonModel.java" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/po/PersonModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/po/StockModel.java" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/po/StockModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springboot-enhance/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/springboot-enhance/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/springboot-enhance/target/" />
@@ -144,14 +74,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpringbootEnhanceApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SpringbootEnhanceApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/SpringbootEnhanceApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2840">
-              <caret line="173" column="28" lean-forward="false" selection-start-line="173" selection-start-column="28" selection-end-line="173" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="265">
+              <caret line="175" column="26" lean-forward="true" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,8 +87,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-enhance/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1280">
-              <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+            <state relative-caret-position="280">
+              <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -178,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-enhance/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="253">
+              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -294,10 +222,10 @@
         <option value="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/redis/JedisPoolProperties.java" />
         <option value="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/redis/RedisProperties.java" />
         <option value="$PROJECT_DIR$/springboot-enhance/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-enhance/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/redis/RedisConfiguration.java" />
-        <option value="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/SpringbootEnhanceApplication.java" />
         <option value="$PROJECT_DIR$/springboot-enhance/.gitignore" />
+        <option value="$PROJECT_DIR$/springboot-enhance/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/SpringbootEnhanceApplication.java" />
       </list>
     </option>
   </component>
@@ -1474,7 +1402,7 @@
       <workItem from="1514012990104" duration="4535000" />
       <workItem from="1514216986140" duration="5764000" />
       <workItem from="1514276739719" duration="4363000" />
-      <workItem from="1514383016611" duration="81000" />
+      <workItem from="1514383016611" duration="215000" />
     </task>
     <servers />
   </component>
@@ -1487,7 +1415,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144176000" />
+    <option name="totallyTimeSpent" value="144310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -1952,24 +1880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-enhance/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/SpringbootEnhanceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2840">
-          <caret line="173" column="28" lean-forward="false" selection-start-line="173" selection-start-column="28" selection-end-line="173" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/redis/RedisConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -1982,8 +1892,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-enhance/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="253">
+          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-enhance/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-enhance/src/main/java/com/mitri/SpringbootEnhanceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="175" column="26" lean-forward="true" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
           <folding />
         </state>
       </provider>

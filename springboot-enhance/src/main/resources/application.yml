@@ -44,11 +44,35 @@ spring:
     consumer:
       bootstrap-servers: localhost:9092
       group-id: foo
-      auto-offset-reset: earliest
+      auto-offset-reset: latest
       enable-auto-commit: true
       auto-commit-interval: 100
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  redis:
+    database: 0
+    host: 180.97.80.177
+    password: tE2-WJZ-u5F-6UJ
+    port: 6379
+    timeout: 10000
+    pool:
+      max-active: 8 #最大连接数
+      max-idle: 8 #最大空闲连接数
+      max-wait: -1 #最大等待时间
+      min-idle: 0 #初始化连接数
+    redis-second:
+      enabled: true
+      database: 0
+      host: 180.97.70.120
+      password: tE2-WJZ-u5F-6UJ
+      port: 6379
+      timeout: 30000
+
 
 rmq:
   namesrvAddr: localhost:9876
@@ -62,3 +86,7 @@ rmq:
 
 zk:
   url: 127.0.0.1:2181
+
+
+
+

@@ -18,6 +18,8 @@ import lombok.experimental.Accessors;
 @AllArgsConstructor
 public class StockModel {
 
+  private String key;
+
   private String name;
 
   private Double price;
